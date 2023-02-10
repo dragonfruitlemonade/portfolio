@@ -8,15 +8,29 @@ import styled from 'styled-components';
 const IndexLayout = ({ children }) => {
 
   return (
-    <Row style={{ width: "1100px", margin: "0 auto" }}>
-      <Col span={4}></Col>
-      <Col span={16} style={{ background: "teal" }}>
-        <upBar style={{ color: "white", fontWeight: "bold" }}>sehwan's portfolio</upBar>
+    <Row
+      style={{
+        width: "900px",
+        margin: "0 auto",
+      }}
+    >
+      <Col span={3}></Col>
+      <Col
+        span={18}
+        style={{
+          background: "teal",
+          marginTop: "10px",
+          height: "100px",
+        }}
+      >
+        <div style={{ color: "white", fontWeight: "bold" }}>
+          sehwan's portfolio
+        </div>
       </Col>
-      <Col span={4}></Col>
+      <Col span={3}></Col>
 
-      <Col span={4}></Col>
-      <Col span={4} defaultChecked>
+      <Col span={3}></Col>
+      <Col span={3} defaultChecked>
         <Menu mode="inline" style={{ alignItems: "center" }}>
           <Menu.Item>
             <Link href="/">자기소개</Link>
@@ -29,8 +43,8 @@ const IndexLayout = ({ children }) => {
           </Menu.Item>
         </Menu>
       </Col>
-      <Col span={12}>{children}</Col>
-      <Col span={4}></Col>
+      <Col span={15}>{children}</Col>
+      <Col span={3}></Col>
     </Row>
   );
 };
