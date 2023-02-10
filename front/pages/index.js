@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <IndexLayout>
       <div>메인</div>
+      <div>사진, 내소개, 자소서</div>
     </IndexLayout>
   );
 };
