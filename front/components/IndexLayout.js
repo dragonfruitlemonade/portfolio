@@ -19,13 +19,13 @@ const IndexLayout = ({ children }) => {
       <Col span={4} defaultChecked>
         <Menu mode="inline" style={{ alignItems: "center" }}>
           <Menu.Item>
-            <Link href="/">인트로오브유</Link>
+            <Link href="/">자기소개</Link>
           </Menu.Item>
-          <Menu.Item key="intro">
-            <Link href="/intro">자기소개서</Link>
+          <Menu.Item key="resume">
+            <Link href="/resume">이력서</Link>
           </Menu.Item>
-          <Menu.Item key="community">
-            <Link href="/community">커뮤니티</Link>
+          <Menu.Item key="comment">
+            <Link href="/comment">코멘트</Link>
           </Menu.Item>
         </Menu>
       </Col>
