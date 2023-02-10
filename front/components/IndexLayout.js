@@ -3,15 +3,18 @@ import { useCallback, useEffect } from "react";
 import propTypes from "prop-types";
 import Link from "next/link";
 import { Col, Row, Menu, Button } from "antd";
+import styled from 'styled-components';
 
 const IndexLayout = ({ children }) => {
-
 
   return (
     <Row style={{ width: "1100px", margin: "0 auto" }}>
       <Col span={4}></Col>
-      <Col span={16}>상단바</Col>
+      <Col span={16} style={{ background: "teal" }}>
+        <upBar style={{ color: "white", fontWeight: "bold" }}>sehwan's portfolio</upBar>
+      </Col>
       <Col span={4}></Col>
+
       <Col span={4}></Col>
       <Col span={4} defaultChecked>
         <Menu mode="inline" style={{ alignItems: "center" }}>
