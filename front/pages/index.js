@@ -1,7 +1,7 @@
 import React from "react";
 // import { useDispatch } from "react-redux";
 
-// import IndexLayout from "../components/IndexLayout";
+import IndexLayout from "../components/IndexLayout";
 // import { LOAD_MY_INFO_REQUEST } from "../reducers/user";
 // import { END } from "redux-saga";
 // import axios from "axios";
@@ -9,7 +9,6 @@ import React from "react";
 
 const Home = () => {
   // const dispatch = useDispatch();
-
   return (
     <IndexLayout>
       <div>메인</div>
